@@ -14,16 +14,17 @@ You can vist the live version of the project at: http://safeerkhan.net/Journatic
   - At least 1 special character.
   - Minimum 8 characters.
 3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thourough testing were not done. 
-  - Example: Large Strings of Text may break elements or surpass their containers runing the overall design experience.
+  - Example: Large Strings of Text may break elements or surpass their containers runing the overall design experience.  
   
-### Account Creation
+# Demos
+#### Account Creation
 ![Alt Text](resources/demo-gif-1.gif)
 
-### New Entry
+#### New Entry
 ![Alt Text](resources/demo-gif-2.gif)
 
-### Delete Entry
+#### Delete Entry
 ![Alt Text](resources/demo-gif-3.gif)
 
-### Edit Entry
+#### Edit Entry
 ![Alt Text](resources/demo-gif-4.gif)

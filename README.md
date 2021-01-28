@@ -16,7 +16,7 @@ The preview entry content seen above uses gibberish Ipsum Lorem.
   - Minimum 8 characters.
 3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thorough testing are currently on the to-do list. 
   - Example: Large Strings of Text may break elements or surpass their containers runing the overall design experience.  
-4. A strong focus was put into clean, quality code using best practices. I am not a designer. You can visit my portfolio at http://safeerkhan.net/ if you want to see my capability as a front-end developer with focus on design.
+4. A strong focus was put into clean, quality code using best practices. I am not a designer. You can visit my portfolio at http://safeerkhan.net/ if you wish to see my capability as a front-end developer when focused on design.
   
 # Demos
 #### Account Creation

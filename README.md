@@ -13,7 +13,7 @@ You can vist the live version of the project at: http://safeerkhan.net/Journatic
   - At least 1 digit.
   - At least 1 special character.
   - Minimum 8 characters.
-3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thourough testing were not done. 
+3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thourough testing are currently on the to-do list. 
   - Example: Large Strings of Text may break elements or surpass their containers runing the overall design experience.  
   
 # Demos

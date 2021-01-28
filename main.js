@@ -174,6 +174,7 @@ class Account { // Handle Account Creation
             accountState.style.display = "none";
             mainState.setAttribute("account-id", `${userName}`);
             JournalUI.init();
+            logInStatus.textContent = "";
             }, 1000);
         } else {
             logInStatus.textContent = "Login invalid. Please try again.";

@@ -4,7 +4,7 @@ Built using vanilla HTML, CSS, and ES6 JavaScript.
 You can vist the live version of the project at: http://safeerkhan.net/Journatic/. 
 
 ![Alt_Text](resources/demo-screenshot.png "Journatic Demo Screenshot")
-The preview entry content seen above uses real word Ipsum Lorem.
+The preview entry content seen above uses gibberish Ipsum Lorem.
 
 ## Important
 1. Journatic uses Local Storage to save created users and journal entries. Refreshing the page signs user out.

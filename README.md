@@ -10,14 +10,17 @@ A single-page web application that allows the user to make text-based journal en
   - At least 1 digit.
   - At least 1 special character.
   - Minimum 8 characters.
-
+3. This of this App as a high-fidelity mockup. Account Security, Form/Input checking and thourough testing were not done. 
+  - Example: Large Strings of Text may break elements or surpass their containers
+  
+### Account Creation
 ![Alt Text](resources/demo-gif-1.gif)
 
-## 2. New Entry
+### New Entry
 ![Alt Text](resources/demo-gif-2.gif)
 
-## 3. Delete Entry
+### Delete Entry
 ![Alt Text](resources/demo-gif-3.gif)
 
-## 4. Edit Entry
+### Edit Entry
 ![Alt Text](resources/demo-gif-4.gif)

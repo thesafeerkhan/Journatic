@@ -1,0 +1,473 @@
+:root {
+    --blue-color: rgb(92, 175, 243);
+    --red-color: tomato;
+    --green-color: mediumaquamarine;
+}
+
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.btn{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(184, 184, 184);
+    cursor: pointer;
+  }
+
+input{
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+}
+
+textarea{
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 2px #00000018;
+}
+
+.success{
+    background-color: var(--green-color);
+}
+
+.error{
+    background-color: var(--red-color);
+}
+
+a{
+    color: white;
+    opacity: 50%;
+}
+
+a:hover{
+    opacity: 100%;
+}
+/* Signup Login State */
+#account{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    color: white;
+  }
+
+  #login-img{
+      padding: 1rem;
+      margin: 1rem;
+  }
+  
+  .form-header{
+    display: flex;
+    justify-content: space-evenly;
+  
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .form-header > *{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .form-header h1.active{
+    background-color: var(--blue-color);
+    color: white;
+  }
+  
+  .user-form{
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--blue-color);
+    text-align: center;
+  }
+  
+  .user-form input{
+    font-size: 16px;
+    border-radius: 0;
+  }
+  
+  .user-form.active{
+    display: flex;
+  }
+  
+  .user-form .btn{
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+
+/* Main */
+main{
+    min-height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+nav{
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+nav > * {
+    width: 30%;
+}
+
+#signout-button{
+    font-size: 15px;
+    background-color: var(--green-color);
+    color: white;
+    border-radius: 0;
+    box-shadow: 3px 3px 3px rgb(184, 184, 184);
+}
+
+#signout-button:hover{
+    background-color:rgb(71, 201, 158);
+}
+
+#status-container{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#status-container.active{
+    display: flex;
+}
+
+#status-container h3{
+    width: 50%;
+    border-radius: .8rem;
+}
+
+#app{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: var(--blue-color);
+}
+
+/* Journal */
+#journal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#journal.active{
+    display: none;
+}
+
+.entry{
+    flex: 0 0 30%;
+    min-width: 300px;
+    height: 370px;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-container{
+    flex: 1;
+}
+
+.entry h1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+    padding-bottom: 0.5rem;
+}
+
+.entry h3{
+    font-weight: 400;
+}
+
+.entry h6{
+    opacity: 30%;
+}
+
+.entry:hover h6{
+    opacity: 100%;
+}
+
+.delete-container{
+    text-align: right;
+}
+
+.delete-container i{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.delete-container i:hover{
+    opacity: 100%;
+    color: var(--red-color);
+}
+
+.entry-container{
+    margin-top: 1.5rem;
+}
+
+.entry:hover{
+    transition: linear 0.2s;
+    transform: scale(1.03);
+}
+
+#journal .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+
+#journal .btn:hover{
+    opacity: 100%;
+    transform: scale(1.03);
+}
+
+/* New Entry */
+#entry-form{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 1.5rem;
+}
+
+#entry-form.active{
+    display: flex;
+}
+
+#entry-content{
+    flex: 1;
+}
+
+#add-form-buttons{
+    display: none;
+}
+
+#add-form-buttons.active{
+    display: flex;
+}
+
+#edit-form-buttons{
+    display: none;
+}
+
+#edit-form-buttons.active{
+    display: flex;
+}
+
+#add-entry{
+    flex: 1;
+    margin-left: 0rem;
+}
+
+#edit-entry{
+    flex: 1;
+    margin-left: 0rem;
+}
+
+.back-button{
+    width: 100px;
+    opacity: 50%;
+}
+
+.back-button:hover{
+    opacity: 100%;
+}
+
+.form-button{
+    display: block;
+    background-color: var(--green-color);
+    border-radius: 1rem;
+    opacity: 50%;
+}
+
+.form-button:hover{
+    opacity: 100%;
+}
+
+/* View Entry */
+#view-entry{
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1.5rem;
+    background-color: white;
+    padding: 3rem 2rem;
+    font-size: 1.5rem;
+}
+
+#view-entry.active{
+    display: flex;
+}
+
+#view-back-button{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+#view-title{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+    text-align: center;
+    width: 300px;
+}
+
+#view-date{
+    font-weight: 400;
+}
+
+#view-content{
+    flex: 1;
+    margin: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.view-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+#entry-edit{
+    background-color: var(--green-color);
+    opacity: 50%;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#entry-edit:hover{
+    opacity: 100%;
+}
+
+#entry-delete{
+    background-color: var(--red-color);
+    opacity: 50%;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#entry-delete:hover{
+    opacity: 100%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    #profile-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #signout-container{
+        display: none;
+    }
+
+    #logo-container{
+        width: 100%;
+    }
+
+    .user-form input{
+        font-size: 13px;
+    }
+
+    #view-entry{
+        padding: 1rem;
+    }
+
+    #view-title{
+        font-size: 30px;
+        width: 250px;
+    }
+
+    #view-content{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    #view-back-button{
+        position: relative;
+        top: 0;
+    }
+}
+
+  /* Footer */
+footer{
+    position: absolute;
+    margin-left: auto;
+    right: 10px;
+    bottom: 0;
+    text-align: center;
+}

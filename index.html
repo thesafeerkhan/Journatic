@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journatic</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db92eae0af.js" crossorigin="anonymous"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Login State-->
+    <section id="account">
+        <img id="login-img" src="resources/Journatic-Logo-Black.png" alt="">
+        <form>
+          <!-- Header -->
+          <div class="form-header">
+            <h1 class="active" id="log-in-header">Log In</h1>
+            <h1 class="" id="sign-up-header">Sign Up</h1>
+          </div>
+          <!-- Login -->
+          <div id="log-in-form" class="user-form active">
+            <input type="text" id="log-in-user-name" placeholder="username" />
+            <input type="password"id="log-in-password" placeholder="password" />
+            <button class="btn2" type="button" id="log-in-button">Log In</button>
+            <h1 class="log-in-status"></h1>
+          </div>
+          <!-- Signup -->
+          <div id="sign-up-form" class="user-form">
+            <input type="text" id="sign-up-user-name" placeholder="username" />
+            <input type="password" id="sign-up-password" placeholder="password" />
+            <input type="text" id="sign-up-name" placeholder="name" />
+            <input type="text" id="sign-up-bio" placeholder="bio" />
+            <button class="btn2" type="button" id="sign-up-button">Sign Up</button>
+            <h1 class="sign-up-status"></h1>
+          </div>
+        </form>
+      </section>
+
+    <!-- Main State -->
+    <main id="main" account-id="">
+        <!-- Nav -->
+        <nav>
+            <div id="profile-container">
+                <h1 id="profile-name">First Last</h1>
+                <h5 id="profile-bio">A small bio here</h5>
+            </div>
+            <div id="logo-container">
+                <img src="resources/Journatic-Logo-Black.png" alt="">
+            </div>
+            <div id="signout-container">
+                <button id="signout-button" class="btn">Sign Out</button>
+            </div>
+        </nav>
+        <!-- Status Section-->
+        <div id="status-container" class="">
+            <h3 id="status" class=""></h3>
+        </div>
+        <!-- App Section-->
+        <section id="app">
+            <div class="wrapper">
+                <!-- Journal State-->
+                <div id="journal">
+                    <i id="new-entry" class="entry btn fas fa-pencil-alt fa-6x"></i>
+                </div>
+                <!-- New Entry State -->
+                <form id="entry-form" entry-index="">
+                    <div id="add-form-buttons">
+                        <button id="add-back-button" class="back-button btn" type="button"><i class="fas fa-arrow-left fa-3x"></i></button>
+                        <button id="add-entry" class="btn form-button" type="button"><h1>Add Entry</h1></button>
+                    </div>
+                    <div id="edit-form-buttons">
+                        <button id="edit-back-button" class="back-button btn" type="button"><i class="fas fa-arrow-left fa-3x"></i></button>
+                        <button id="edit-entry" class="btn form-button" type="button"><h1>Edit Entry</h1></button>
+                    </div>
+                    <input id="entry-title" type="text" placeholder="Title">
+                    <textarea id="entry-content" placeholder="Content"></textarea>
+                    <input id="entry-tags" type="text" placeholder="Tag/s">
+                    <input id="entry-date" type="text" placeholder="Date">
+                </form>
+                <!-- View Entry State -->
+                <div id="view-entry">
+                    <button id="view-back-button" class="back-button btn" type="button"><i class="fas fa-arrow-left fa-3x"></i></button>
+                    <h5 id="view-date"></h5>
+                    <h1 id="view-title"></h1>
+                    <h3 id="view-content"></h3>
+                    <h5 id="view-tags"></h5>
+                    <div class="view-buttons">
+                        <i id="entry-edit" class="fas fa-pencil-alt fa-2x"> </i>
+                        <i id="entry-delete" class="fas fa-trash fa-2x delete-entry"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer><a href="https://safeerkhan.net"><i class="far fa-copyright"> safeerkhan.net 2021</i></a></footer> -->
+    <script src="main.js"></script>
+</body>
+</html>
+

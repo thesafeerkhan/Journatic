@@ -1,5 +1,7 @@
 # Journatic
 A single-page web application that allows the user to make text-based journal entries.
+You can vist the live version of the project at: http://safeerkhan.net/Journatic/
+
 ![Alt_Text](resources/demo-screenshot.png "Journatic Demo Screenshot")
 
 ## Important

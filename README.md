@@ -7,7 +7,7 @@ You can vist the live version of the project at: http://safeerkhan.net/Journatic
 
 ## Important
 1. Journatic uses Local Storage to save created users and journal entries. Refreshing the page signs user out.
-2. When creating a new account through Sign-Up. A strong password consists of 
+2. When creating a new account through Account Sign-Up. A strong password consists of 
   - At least 1 uppercase character.
   - At least 1 lowercase character.
   - At least 1 digit.

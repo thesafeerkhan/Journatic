@@ -15,12 +15,13 @@ The preview entry content seen above uses gibberish Lorem Ipsum.
   - At least 1 special character.
   - Minimum 8 characters.
 3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thorough testing are currently being worked on. 
-  - Example: Large strings of text in the Title, Date, and Tags section 
 4. A strong focus was put into clean, quality code using best practices. I am not a designer. You can visit my portfolio at http://safeerkhan.net/ that better showcase my capabilities as a front-end developer with a focus on design.
 
-#To Do
-  -Tag Searching
-  -Better Design
+#Currently working on
+  -Form input checking
+  -Tag searching
+  -Seperate profile page
+  -Design
 
 # Demos
 #### Account Creation

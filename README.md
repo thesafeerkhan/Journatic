@@ -7,17 +7,21 @@ You can vist the live version of the app at: http://safeerkhan.net/Journatic/.
 The preview entry content seen above uses gibberish Lorem Ipsum.
 
 ## Important
-1. Journatic uses Local Storage to save created users and journal entries. Refreshing the page signs user out.
+1. Journatic uses Local Storage to save created users and journal entries. Refreshing the page signs user out. Signing back in retains information.
 2. When creating a new account through Account Sign-Up. A strong password consists of 
   - At least 1 uppercase character.
   - At least 1 lowercase character.
   - At least 1 digit.
   - At least 1 special character.
   - Minimum 8 characters.
-3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thorough testing are currently on the to-do list. 
+3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thorough testing are currently being worked on. 
   - Example: Large strings of text in the Title, Date, and Tags section 
 4. A strong focus was put into clean, quality code using best practices. I am not a designer. You can visit my portfolio at http://safeerkhan.net/ that better showcase my capabilities as a front-end developer with a focus on design.
-  
+
+#To Do
+  -Tag Searching
+  -Better Design
+
 # Demos
 #### Account Creation
 ![Alt Text](resources/demo-gif-1.gif)

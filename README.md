@@ -18,10 +18,10 @@ The preview entry content seen above uses gibberish Lorem Ipsum.
 4. A strong focus was put into clean, quality code using best practices. I am not a designer. You can visit my portfolio at http://safeerkhan.net/ that better showcase my capabilities as a front-end developer with a focus on design.
 
 # Currently working on
-  -Form input checking
-  -Tag searching
-  -Seperate profile page
-  -Design
+  - Form input checking
+  - Tag searching
+  - Seperate profile page
+  - Design
 
 # Demos
 #### Account Creation

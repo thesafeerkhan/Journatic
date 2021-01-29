@@ -224,6 +224,11 @@ nav > * {
     flex-direction: column;
 }
 
+.entry-element{
+    width: 100%;
+    word-wrap: break-word;
+}
+
 .entry-container{
     flex: 1;
 }
@@ -261,6 +266,8 @@ nav > * {
 
 .entry-container{
     margin-top: 1.5rem;
+    width: 100%;
+    word-wrap: break-word;
 }
 
 .entry:hover{
@@ -361,6 +368,8 @@ nav > * {
     background-color: white;
     padding: 3rem 2rem;
     font-size: 1.5rem;
+    padding: 4rem;
+    text-align: center;
 }
 
 #view-entry.active{
@@ -375,12 +384,14 @@ nav > * {
 
 #view-title{
     border-bottom: 1px solid rgba(0, 0, 0, 0.507);
-    text-align: center;
-    width: 300px;
+    width: 70%;
+    word-wrap: break-word;
 }
 
 #view-date{
     font-weight: 400;
+    word-wrap: break-word;
+    width: 50%;
 }
 
 #view-content{
@@ -388,7 +399,13 @@ nav > * {
     margin: 2rem;
     font-weight: 400;
     line-height: 3rem;
-    text-align: center;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+#view-tags{
+    word-wrap: break-word;
+    width: 100%;
 }
 
 .view-buttons{

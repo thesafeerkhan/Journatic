@@ -17,7 +17,7 @@ The preview entry content seen above uses gibberish Lorem Ipsum.
 3. This is a high-fidelity app mockup to demonstrate proficiency in the skill-set mentioned above. Full functionality such as Account Security, Form/Input checking and thorough testing are currently being worked on. 
 4. A strong focus was put into clean, quality code using best practices. I am not a designer. You can visit my portfolio at http://safeerkhan.net/ that better showcase my capabilities as a front-end developer with a focus on design.
 
-#Currently working on
+# Currently working on
   -Form input checking
   -Tag searching
   -Seperate profile page
